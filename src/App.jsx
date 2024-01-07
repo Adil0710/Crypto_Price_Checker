@@ -39,7 +39,7 @@ useEffect(() => {
   return (
     <div className='App bg-zinc-900 h-full w-full h-screen  justify-center '>
       <div className='cryptoHeader  w-full flex justify-center items-center h-52'>
-        <input type='text' placeholder='Search' className='w-1/2 bg-slate-700 py-3 rounded-xl px-2 text-gray-200' 
+        <input type='text' placeholder='Search' className=' w-4/5 sm:w-1/2 bg-slate-700 py-3 rounded-xl px-2 text-gray-200' 
         onChange={(event) => {
           setSearchWord(event.target.value)
         }}/>
