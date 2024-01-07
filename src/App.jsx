@@ -46,7 +46,10 @@ useEffect(() => {
       </div>
       <div className='cryptoDisplay flex justify-center flex-wrap gap-12 bg-zinc-900 py-4'>{filteredCoins.map((result)=>{
         return <Coin name={result.name} icon={result.icon} price={result.price} symbol={result.symbol} websiteurl={result.websiteUrl}/>
-      })}</div>
+      })}
+      </div>
+
+      <div className='bg-zinc-900 flex justify-center text-gray-400 pt-10 pb-2'>Developed By &nbsp;|<a href="https://adil0710.github.io/" target="_blank" rel="noopener noreferrer" className='font-bold text-gray-300'>&nbsp;&nbsp;Adil Patel</a></div>
     </div>
   )
 }
